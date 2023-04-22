@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package calculator;
+
+message Calculation {
+  float a = 1;
+  float b = 2;
+  string operator = 3;
+}
+
+message Result {
+  float result = 1;
+}
+
+service CalculatorService {
+  rpc Calculate(Calculation) returns (Result);
+}
+

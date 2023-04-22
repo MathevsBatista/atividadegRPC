@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@grpc/proto-loader": "^0.7.6",
+    "google-protobuf": "^3.21.2",
+    "grpc": "^1.24.11",
+    "grpc-tools": "^1.12.4",
+    "grpc-web": "^1.4.2",
+    "protobufjs": "^7.2.3",
+    "protoc-gen-grpc-web": "^1.4.1"
+  }
+}
